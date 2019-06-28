@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/ReactRoboPWA/precache-manifest.c6ab50f8e2573fb77449ac205f224040.js"
+  "/RoboFriendsPWA/precache-manifest.83042089b837941588c49f5893a2d4c4.js"
 );
 
 workbox.clientsClaim();
@@ -28,7 +28,7 @@ self.__precacheManifest = [].concat(self.__precacheManifest || []);
 workbox.precaching.suppressWarnings();
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
 
-workbox.routing.registerNavigationRoute("/ReactRoboPWA/index.html", {
+workbox.routing.registerNavigationRoute("/RoboFriendsPWA/index.html", {
   
   blacklist: [/^\/_/,/\/[^\/]+\.[^\/]+$/],
 });
